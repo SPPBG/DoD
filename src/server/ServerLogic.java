@@ -118,6 +118,7 @@ public class ServerLogic implements Runnable{
 	 * @throws IOException
 	 */
 	public void registerClient(Socket client) throws IOException{
+		//Do not worry about closing this - the user closes on it's own when its thread finishes
 		NetworkUser user=new NetworkUser(game,this,client);
 		user.start();
 		//Inform the administrator

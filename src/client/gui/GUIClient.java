@@ -5,7 +5,6 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 
 import javax.swing.JOptionPane;
-import javax.swing.SwingUtilities;
 
 /**
  * A client class which is used in conjunction with a GUI 
